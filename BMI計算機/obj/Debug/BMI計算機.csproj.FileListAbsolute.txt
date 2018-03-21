@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\BMI計算機\BMI計算機\bin\Debug\BMI計算機.exe.config
+C:\Users\user\Desktop\BMI計算機\BMI計算機\bin\Debug\BMI計算機.exe
+C:\Users\user\Desktop\BMI計算機\BMI計算機\bin\Debug\BMI計算機.pdb
+C:\Users\user\Desktop\BMI計算機\BMI計算機\obj\Debug\BMI計算機.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\BMI計算機\BMI計算機\obj\Debug\BMI計算機.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BMI計算機\BMI計算機\obj\Debug\BMI計算機.exe
+C:\Users\user\Desktop\BMI計算機\BMI計算機\obj\Debug\BMI計算機.pdb
