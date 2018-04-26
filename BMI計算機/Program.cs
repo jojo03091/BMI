@@ -10,14 +10,15 @@ namespace BMI計算機
     {
         static void Main(string[] args)
         {
+            //視窗造型
             Console.Title = "BMI值計算機";
             Console.ForegroundColor = ConsoleColor.Cyan;
-            //視窗造型
 
+            //使用說明
             Console.WriteLine("歡迎使用BMI值計算機，請輸入以下數據進行計算 :" + "\r\n");
             Console.WriteLine("輸入後請按下ENTER鍵" + "\r\n");
-            //使用說明
 
+            //接收性別、身高和體重數值
             Console.WriteLine("性別 : " + "  (男生為1，女生為2)");
             string gender = Console.ReadLine();
 
@@ -26,19 +27,19 @@ namespace BMI計算機
 
             Console.WriteLine("\r\n" + "體重(kg) : ");
             string weight = Console.ReadLine();
-            //接收性別、身高和體重數值
 
-            double Height = Math.Pow(double.Parse(height) / 100, 2);
             //轉換身高變數類別，計算身高平方，單位由公分(cm)轉為公尺(m)
+            double Height = Math.Pow(double.Parse(height) / 100, 2);
 
-            double Weight = double.Parse(weight);
             //轉換體重變數類別
+            double Weight = double.Parse(weight);
 
+            //計算BMI值並顯示
             double BMI;
             BMI = Weight / Height;
             Console.WriteLine("\r\n" + "您的BMI值為 : " + BMI);
-            //計算BMI值並顯示
 
+            //判斷結果顯示
             if (BMI < 18.5)
             {
                 Console.WriteLine("\r\n" + "體重過輕");
@@ -58,8 +59,8 @@ namespace BMI計算機
             {
                 Console.WriteLine("\r\n" + "體重已達肥胖標準");
             }
-            //判斷結果顯示
 
+            //判斷是否免兵役
             if (BMI > 30 && int.Parse(gender) == 1)
             {
                 Console.WriteLine("\r\n" + "已達免服兵役的標準");
@@ -69,7 +70,6 @@ namespace BMI計算機
             {
                 Console.WriteLine("\r\n" + "已達免服兵役的標準");
             }
-            //判斷是否免兵役
 
             Console.ReadLine();
         }
